@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
+## Project Overview
+
+This project aims to [describe project goal here - to be filled in by the project owner].
+
+It is currently based on the standard template provided by Create React Native App. The existing sections below provide general guidance for React Native development using this template.
+
+## Current Status
+
+This project is in the initial setup phase. The main application file (`App.js`) currently contains the default template code from Create React Native App. Further development will replace this with the project's specific functionalities.
+
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
 ## Table of Contents
@@ -125,6 +135,8 @@ The above example would cause the development server to listen on `exp://my-cust
 
 ## Sharing and Deployment
 
+The following instructions describe how to share and deploy your application once it has reached a suitable stage of development. For now, you can focus on developing the core features.
+
 Create React Native App does a lot of work to make app setup and development simple and straightforward, but it's very difficult to do the same for deploying to Apple's App Store or Google's Play Store without relying on a hosted service.
 
 ### Publishing to Expo's React Native Community
@@ -151,6 +163,10 @@ This is usually as simple as running `npm run eject` in your project, which will
 #### Should I Use ExpoKit?
 
 If you have made use of Expo APIs while working on your project, then those API calls will stop working if you eject to a regular React Native project. If you want to continue using those APIs, you can eject to "React Native + ExpoKit" which will still allow you to build your own native code and continue using the Expo APIs. See the [ejecting guide](https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md) for more details about this option.
+
+## License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for full license text.
 
 ## Troubleshooting
 
